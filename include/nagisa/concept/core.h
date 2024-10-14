@@ -14,5 +14,6 @@ using details::enumeration;
 using details::scoped_enumeration;
 using details::object;
 using details::pointer;
+using details::struct_or_class;
 
 NGS_BUILD_LIB_END

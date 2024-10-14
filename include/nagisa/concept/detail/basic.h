@@ -28,4 +28,8 @@ concept object = ::std::is_object_v<T>;
 template<class T>
 concept pointer = ::std::is_pointer_v<T>;
 
+template<class T>
+concept struct_or_class = ::std::is_class_v<T>;
+
+
 NGS_BUILD_LIB_DETAIL_END
