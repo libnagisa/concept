@@ -2,7 +2,7 @@
 
 #include "./environment.h"
 
-NGS_BUILD_LIB_DETAIL_BEGIN
+NAGISA_BUILD_LIB_DETAIL_BEGIN
 
 template<class...>
 concept none = false;
@@ -32,4 +32,4 @@ template<class T>
 concept struct_or_class = ::std::is_class_v<T>;
 
 
-NGS_BUILD_LIB_DETAIL_END
+NAGISA_BUILD_LIB_DETAIL_END

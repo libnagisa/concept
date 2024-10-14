@@ -3,7 +3,7 @@
 #include "./detail/basic.h"
 #include "./environment.h"
 
-NGS_BUILD_LIB_BEGIN
+NAGISA_BUILD_LIB_BEGIN
 
 using details::any;
 using details::none;
@@ -16,4 +16,4 @@ using details::object;
 using details::pointer;
 using details::struct_or_class;
 
-NGS_BUILD_LIB_END
+NAGISA_BUILD_LIB_END
