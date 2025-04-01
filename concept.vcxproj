@@ -20,7 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\nagisa\concept\concept.h" />
-    <ClInclude Include="include\nagisa\concept\core.h" />
+    <ClInclude Include="include\nagisa\concept\export.h" />
     <ClInclude Include="include\nagisa\concept\detail\basic.h" />
     <ClInclude Include="include\nagisa\concept\detail\environment.h" />
     <ClInclude Include="include\nagisa\concept\environment.h" />
